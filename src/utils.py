@@ -37,6 +37,24 @@ def save_obj(file_path,obj):
         print(e)
         
         
+def load_obj(file_path):
+    logging.info('Process of loading object started')
+    
+    try:
+        with open(file_path,'rb') as f:
+            obj=pkl.load(f)
+        f.close()
+        logging.info(f'Object at {file_path} loaded successfully')
+        return obj
+        
+    except CustomException as e:
+        logging.info(f'Error occurred while loading object,{e}')
+        print(e)
+
+
+
+
+
 
 def model_evaluator(X_train,y_train,X_test,y_test,models):
     

@@ -23,4 +23,4 @@ if __name__=='__main__':
     
     trainer=ModelTrainer()
     trainer.initiateModelTrainer(clean_test_arr,clean_test_arr)
-    print('Model Trained Succesfully')
+    print('Model Trained Successfully')

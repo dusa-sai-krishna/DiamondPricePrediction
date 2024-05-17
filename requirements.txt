@@ -5,3 +5,4 @@ seaborn
 flask
 scikit-learn
 pickle5
+streamlit
