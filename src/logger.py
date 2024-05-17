@@ -22,4 +22,4 @@ LOG_FILE_PATH=os.path.join(LOG_PATH,LOG_FILE_NAME)
 #config the logger
 logging.basicConfig(filename=LOG_FILE_PATH,
                     level=logging.INFO,
-                    format='%(asctime)s - %(name)s -  %(levelname)s - %(messsage)s)')
+                    format='%(asctime)s - %(name)s -  %(levelname)s - %(message)s)')
